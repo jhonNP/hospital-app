@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
 
 @Configuration
-@ComponentScan(basePackages = "co.com.bancolombia.usecase",
+@ComponentScan(basePackages = "co.com.hospital.usecase",
         includeFilters = {
                 @ComponentScan.Filter(type = FilterType.REGEX, pattern = "^.+UseCase$")
         },
